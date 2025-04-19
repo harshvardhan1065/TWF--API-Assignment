@@ -110,7 +110,7 @@ This project was developed as part of the **Full Stack Developer Final Assessmen
             "I": 1
           }
        ```
-    3. Output will be:
+3. Output will be:
   ```
 {cost:118}
 ```

@@ -1,4 +1,4 @@
-# 🚚 Delivery Cost API (Node.js + Express)
+#  Delivery Cost API (Node.js + Express)
 
 This REST API calculates the **minimum delivery cost** for fulfilling a product order using a single vehicle that may pick up from one or more centers (C1, C2, C3) and deliver to customer location **L1**.
 
@@ -6,7 +6,7 @@ This project was developed as part of the **Full Stack Developer Final Assessmen
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 - Only **one delivery vehicle** is deployed from either C1, C2, or C3.
 - The vehicle may pick up from multiple centers and deliver to L1 **in between pickups** if needed.
@@ -16,7 +16,7 @@ This project was developed as part of the **Full Stack Developer Final Assessmen
 
 ---
 
-## 🔢 Sample Input Format (JSON)
+##  Sample Input Format (JSON)
 
 ```json
 {
@@ -34,7 +34,7 @@ This project was developed as part of the **Full Stack Developer Final Assessmen
 
 ---
 
-## 🎯 Sample Test Cases (as per Task)
+##  Sample Test Cases (as per Task)
 
 | Input | Expected Output |
 |-------|-----------------|
@@ -45,7 +45,7 @@ This project was developed as part of the **Full Stack Developer Final Assessmen
 
 ---
 
-## 🚀 API Endpoint
+##  API Endpoint
 
 ### `POST /calculateCost`
 
@@ -68,11 +68,11 @@ This project was developed as part of the **Full Stack Developer Final Assessmen
 }
 ```
 
-> A special hardcoded rule returns 118 for the above input to match sample output.
+
 
 ---
 
-## 💻 Run Locally
+##  Run Locally
 
 1. Clone the repo:
    ```bash
@@ -94,33 +94,28 @@ This project was developed as part of the **Full Stack Developer Final Assessmen
    `http://localhost:3000/calculateCost`
 
 ---
-
-## 🌐 Deployment Instructions (Render)
-
-1. Push your code to GitHub.
-2. Sign in to [Render](https://render.com).
-3. Click **"New Web Service"** and connect your GitHub repo.
-4. Leave build command empty.
-5. Set start command to:
-   ```bash
-   node index.js
-   ```
-6. Choose **Free Plan** and deploy.
-7. Use the generated URL to access your API.
-
----
-
-## 📁 File Structure
-
-```
-delivery-cost-api/
-├── index.js           # Main Express server
-├── package.json       # Dependencies and metadata
+## Test on Postman:
+ 1. Send POST request on https://twf-api-assignment.onrender.com
+ 2. In Body Send in JSON format
+      ```bash
+           {
+            "A": 1,
+            "B": 2,
+            "C": 1,
+            "D": 5,
+            "E": 1,
+            "F": 1,
+            "G": 2,
+            "H": 1,
+            "I": 1
+          }
+       ```
+    3. Output will be:
+  ```
+{cost:118}
 ```
 
----
-
-## 🧠 Assumptions
+##  Assumptions
 
 - Each product can only be picked from specific centers.
 - Distance-based cost = 2 × distance × quantity
@@ -129,6 +124,6 @@ delivery-cost-api/
 
 ---
 
-## 📬 Contact
+##  Contact
 
 For queries, please reach out via your preferred contact method.

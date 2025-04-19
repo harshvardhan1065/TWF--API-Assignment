@@ -103,19 +103,21 @@ This project was developed as part of the **Full Stack Developer Final Assessmen
 ## Test on Postman:
  1. Send POST request on https://twf-api-assignment.onrender.com
  2. In Body Send in JSON format
-      ```bash
-           {
-            "A": 1,
-            "B": 1,
-            "C": 1,
-            "G": 1,
-            "H": 1,
-            "I": 1
-          }
-       ```
+      ```json
+    {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "G": 1,
+      "H": 1,
+      "I": 1
+    }
+    ```
 3. Output will be:
-  ```
-{cost:118}
+ ```json
+{
+  "cost": 118
+}
 ```
 
 ##  Assumptions

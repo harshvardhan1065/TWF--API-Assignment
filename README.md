@@ -7,7 +7,8 @@ This project was developed as part of the **Full Stack Developer Final Assessmen
 ---
 ## Demo
 
-![Demo]([https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/assets/diagram.png?raw=true](https://github.com/harshvardhan1065/TWF--API-Assignment/blob/main/Screenshot%202025-04-19%20173923.png)
+![Alt text](/diagram.png)
+
 
 
 

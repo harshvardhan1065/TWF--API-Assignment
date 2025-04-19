@@ -100,12 +100,9 @@ This project was developed as part of the **Full Stack Developer Final Assessmen
       ```bash
            {
             "A": 1,
-            "B": 2,
+            "B": 1,
             "C": 1,
-            "D": 5,
-            "E": 1,
-            "F": 1,
-            "G": 2,
+            "G": 1,
             "H": 1,
             "I": 1
           }

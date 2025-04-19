@@ -7,7 +7,7 @@ This project was developed as part of the **Full Stack Developer Final Assessmen
 ---
 ## Demo
 
-![Demo](./diagram.png)
+![Alt text](assets/diagram.png)
 
 ---
 

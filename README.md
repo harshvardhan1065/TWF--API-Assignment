@@ -7,7 +7,7 @@ This project was developed as part of the **Full Stack Developer Final Assessmen
 ---
 ## Demo
 
-![Demo](/Screenshot 2025-04-19 173923.png)
+![Demo](./Screenshot 2025-04-19 173923.png)
 
 
 ##  Problem Statement

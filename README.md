@@ -101,7 +101,7 @@ This project was developed as part of the **Full Stack Developer Final Assessmen
 
 ---
 ## Test on Postman:
- 1. Send POST request on https://twf-api-assignment.onrender.com
+ 1. Send POST request on https://twf-api-assignment.onrender.com/calculateCost
  2. In Body Send in JSON format
       ```json
     {

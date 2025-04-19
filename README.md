@@ -5,6 +5,10 @@ This REST API calculates the **minimum delivery cost** for fulfilling a product 
 This project was developed as part of the **Full Stack Developer Final Assessment Task**.
 
 ---
+## Demo
+
+![Demo](/Screenshot 2025-04-19 173923.png)
+
 
 ##  Problem Statement
 
